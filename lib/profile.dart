@@ -25,7 +25,7 @@ class MyProfile extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'My Profile',
+          'My Profile sarawut',
           style: contentStyle,
         ),
         automaticallyImplyLeading: true,
@@ -41,7 +41,7 @@ class MyProfile extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "นายสราวุธ  ศรีพรม",
+                        "นายสราวุธ  ศรีพรม\n sarawut  sripom",
                         style: bulletStyle,
                       ),
                     ),
@@ -52,33 +52,6 @@ class MyProfile extends StatelessWidget {
                     child: Image.asset(
                       'assets/images/kk.jpg',
                       height: 180.0,
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Text(
-                      "นางสาวกนกวรรณ  สุดอนุ",
-                      style: contentBulletStyle,
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(200.0),
-                    child: Image.asset(
-                      'assets/images/kob.jpg',
-                      height: 180.0,
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.person),
-                    title: Align(
-                      child: new Text(
-                        'สาขาวิชาวิทยาการคอมพิวเตอร์\nคณะศิลปศาสตร์และวิทยาศาสตร์',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
                     ),
                   ),
                   SizedBox(height: sizeBox),
@@ -103,7 +76,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.arrow_forward),
                     title: Align(
                       child: new Text(
-                        'ปวช. 1-3 สาขคอมพิวเตอร์ธุรกิจ วิทยาลัยพณิชยการบางนา',
+                        'ปวช. 1-3 สาขาคอมพิวเตอร์ธุรกิจ วิทยาลัยพณิชยการบางนา',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1.8, 0),
@@ -121,7 +94,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.phone_android),
                     title: Align(
                       child: new Text(
-                        '084-298-2456',
+                        '088-533-7251',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
@@ -151,7 +124,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.email),
                     title: Align(
                       child: new Text(
-                        'phisan.s@sskru.ac.th',
+                        'sarawut.srip61@sskru.ac.th',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
@@ -200,28 +173,6 @@ class MyProfile extends StatelessWidget {
                     title: Align(
                       child: new Text(
                         'เชี่ยวชาญการการพัฒนาเว็บแอพพลิเคชั่นด้วย Django Framework',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.developer_board),
-                    title: Align(
-                      child: new Text(
-                        'การวิเคราะห์ประมวลผลข้อมูลขนาดใหญ่ด้วย Python',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.developer_board),
-                    title: Align(
-                      child: new Text(
-                        'การพัฒนาระบบงานเว็บเชอร์วิสด้วย Django Rest Framework',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),

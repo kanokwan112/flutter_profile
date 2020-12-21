@@ -121,7 +121,7 @@ class MyRoom extends StatelessWidget {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "รูปอาหาร",
+                      "อาหารที่ชอบ",
                       style: contentBulletStyle,
                     ),
                   ),

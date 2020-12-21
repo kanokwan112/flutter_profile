@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class MyAa extends StatelessWidget {
-  MyAa({Key key}) : super(key: key);
+class MyGallery extends StatelessWidget {
+  MyGallery({Key key}) : super(key: key);
 
   var sizeBox = 14.0;
 
