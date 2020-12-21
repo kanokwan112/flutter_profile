@@ -34,6 +34,10 @@ class MyProfile1 extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      fit: BoxFit.cover,
+                      image: AssetImage('assets/images/ee.jpg'))),
               padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
               child: Column(
                 children: <Widget>[
@@ -48,7 +52,7 @@ class MyProfile1 extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(200.0),
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/kob.jpg',
                       height: 180.0,

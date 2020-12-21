@@ -34,6 +34,10 @@ class MyRoom extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      fit: BoxFit.cover,
+                      image: AssetImage('assets/images/cc.jpg'))),
               padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
               child: Column(
                 children: <Widget>[
@@ -48,6 +52,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/kob.jpg',
                       height: 180.0,
@@ -55,9 +60,10 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/kk.jpg',
-                      height: 180.0,
+                      height: 190.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
@@ -70,6 +76,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/11.jpg',
                       height: 165.0,
@@ -77,6 +84,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/12.jpg',
                       height: 150.0,
@@ -84,37 +92,42 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/13.jpg',
-                      height: 150.0,
+                      height: 155.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/14.jpg',
-                      height: 150.0,
+                      height: 160.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/15.jpg',
-                      height: 150.0,
+                      height: 160.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/16.jpg',
-                      height: 150.0,
+                      height: 160.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/17.jpg',
-                      height: 150.0,
+                      height: 10.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
@@ -127,6 +140,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/k6.jpg',
                       height: 175.0,
@@ -134,6 +148,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/k3.jpg',
                       height: 175.0,
@@ -141,6 +156,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/k4.jpg',
                       height: 175.0,
@@ -148,6 +164,7 @@ class MyRoom extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
                     child: Image.asset(
                       'assets/images/k5.jpg',
                       height: 175.0,

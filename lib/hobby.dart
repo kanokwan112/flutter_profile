@@ -34,6 +34,10 @@ class MyHobby extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      fit: BoxFit.cover,
+                      image: AssetImage('assets/images/ee.jpg'))),
               padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
               child: Column(
                 children: <Widget>[
@@ -41,7 +45,7 @@ class MyHobby extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "  งานอดิเรก\n เปรี้ยว & กบ",
+                        "  งานอดิเรก : เปรี้ยว & กบ",
                         style: bulletStyle,
                       ),
                     ),
